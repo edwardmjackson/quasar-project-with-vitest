@@ -1,0 +1,18 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "ESNext",
+    "moduleResolution": "Node"
+  },
+  "exclude": [
+    "./dist",
+    "./.quasar",
+    "./node_modules",
+    "./src-capacitor",
+    "./src-cordova",
+    "./quasar.config.*.temporary.compiled*",
+    "./test"
+  ]
+}
